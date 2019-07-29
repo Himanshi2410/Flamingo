@@ -1,0 +1,12 @@
+package com.flamingo.dao;
+
+import com.flamingo.model.Airport;
+
+public interface Airports {
+
+	void addAirport(Airport airport);
+	void updateAirport(Airport airport);
+	void deleteAirport(Airport airport);
+	
+	
+}

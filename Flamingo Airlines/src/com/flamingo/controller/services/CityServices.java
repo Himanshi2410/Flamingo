@@ -10,7 +10,7 @@ public interface CityServices {
 	void edit(City city);
 	void remove(City city);
 	
-	City findCityByCityId();
+	City findCityByCityId(int cityId);
 	City findCityByCityName();
 	
 	int getCityCount();

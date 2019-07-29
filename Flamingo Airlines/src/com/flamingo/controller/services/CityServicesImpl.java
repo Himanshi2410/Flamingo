@@ -29,7 +29,7 @@ public class CityServicesImpl implements CityServices {
 	}
 
 	@Override
-	public City findCityByCityId() {
+	public City findCityByCityId(int cityId) {
 		// TODO Auto-generated method stub
 		return null;
 	}
