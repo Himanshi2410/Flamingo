@@ -1,0 +1,15 @@
+package com.flamingo.dao;
+
+import java.util.List;
+
+import com.flamingo.model.City;
+
+public interface Cities {
+
+	void addCity();
+	void updateCity();
+	void deleteCity();
+	City findCity();
+	List<City> listCity();
+	
+}

@@ -1,0 +1,9 @@
+package com.flamingo.controller.services;
+
+public interface CityServices {
+
+	void create(City city);
+	void edit(City city);
+	void delete(City city);
+	
+}

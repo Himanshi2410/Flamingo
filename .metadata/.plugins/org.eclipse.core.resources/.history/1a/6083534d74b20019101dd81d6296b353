@@ -1,0 +1,45 @@
+package com.flamingo.dao;
+
+import java.util.List;
+
+import com.flamingo.model.City;
+
+public class CityImpl implements Cities {
+
+	public CityImpl() {
+		// TODO Auto-generated constructor stub
+		
+		
+	}
+	
+	@Override
+	public void addCity() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void updateCity() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void deleteCity() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public City findCity() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<City> listCity() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

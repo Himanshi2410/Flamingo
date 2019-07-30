@@ -1,0 +1,10 @@
+package com.flamingo.model;
+
+public class Airport {
+
+	private int airportId;
+	private String airportNameString;
+	private City city;
+	
+	
+}

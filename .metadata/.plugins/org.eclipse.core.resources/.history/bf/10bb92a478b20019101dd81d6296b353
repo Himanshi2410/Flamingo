@@ -1,0 +1,14 @@
+package com.flamingo.view;
+
+import com.flamingo.controller.services.CityServices;
+import com.flamingo.controller.services.CityServicesImpl;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		CityServices cityServices = new CityServicesImpl();
+		
+		cityServices.addCity();
+	}
+}

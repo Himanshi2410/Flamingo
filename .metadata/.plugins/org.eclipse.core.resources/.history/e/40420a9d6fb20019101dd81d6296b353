@@ -1,0 +1,9 @@
+package com.flamingo.dao;
+
+public interface Cities {
+
+	void addCity();
+	void updateCity();
+	void deleteCity();
+	void listCity();
+}
